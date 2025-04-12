@@ -1,0 +1,14 @@
+# gitignore for ocaml dune projects
+
+# ocamlbuild working directory
+_build/
+
+# ocamlbuild targets
+*.byte
+*.native
+
+
+_opam/
+
+
+.env

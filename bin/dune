@@ -1,0 +1,17 @@
+(executable
+ (name main)
+ (public_name photocamel)
+ (libraries
+  photocamel_lib
+  templates
+  dream
+  caqti
+  caqti-driver-postgresql
+  yojson
+  aws-s3
+  graphics
+  tyxml
+  jingoo
+  lwt)
+ (preprocess
+  (pps ppx_deriving_yojson ppx_deriving.show lwt_ppx))) 
