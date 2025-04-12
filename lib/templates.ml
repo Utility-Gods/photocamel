@@ -1,5 +1,4 @@
 open Tyxml.Html
-open Jingoo
 
 type photo = {
   id: string;
@@ -23,12 +22,6 @@ let base_template ~title ~content =
       (body ~a:[a_class ["bg-gray-100"]] [content])
   in
   Format.asprintf "%a" (pp ()) doc
-
-let template_dir = "/home/d2du/code/ug/photocamel/lib/templates"
-
-let render_template template_name vars =
-  let template_path = Filename.concat template_dir template_name in
-  Jg_template.from_file template_path ~models:vars
 
 let index photos =
   let content =

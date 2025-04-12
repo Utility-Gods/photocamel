@@ -17,13 +17,10 @@ PhotoCamel is built using a modern stack that combines OCaml's type safety with 
     html (Templates.photos_list photos))
   ```
 
-### 2. Template Engine (Tyxml + Jingoo)
+### 2. Template Engine (Tyxml)
 - **Tyxml**: Type-safe HTML generation
   - Catches HTML structure errors at compile time
   - Ensures valid HTML output
-- **Jingoo**: Template engine similar to Jinja2
-  - Allows for dynamic content in templates
-  - Supports template inheritance and includes
 
 ### 3. Database Layer (Caqti)
 - Caqti provides type-safe database queries

@@ -9,7 +9,6 @@
   aws-s3
   graphics
   tyxml
-  jingoo
   lwt)
  (preprocess
   (pps ppx_deriving_yojson ppx_deriving.show lwt_ppx)))
@@ -19,7 +18,6 @@
  (modules templates)
  (libraries
   dream
-  tyxml
-  jingoo)
+  tyxml)
  (preprocess
   (pps lwt_ppx))) 
