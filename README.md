@@ -1,0 +1,1 @@
+# Ocaml based webapp to upload photos to s3, compress them for 3 formats and upload to s3 and a WEB UI to view the photos and generate Links for other people to view and download the photos.
